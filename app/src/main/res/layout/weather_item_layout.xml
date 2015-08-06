@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/outline"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:src="@drawable/grid_color_selector">
+
+    <TextView
+        android:id="@+id/TextPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="10sp"
+        android:layout_marginTop="0dp"/>
+
+    <TextView
+        android:id="@+id/TextData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|bottom"
+        android:layout_gravity="bottom"
+        android:textSize="18sp" />
+
+</LinearLayout>

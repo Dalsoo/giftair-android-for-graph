@@ -1,0 +1,208 @@
+<resources>
+    <string name="app_name">GIFT AIR</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="action_settings">앱 설정</string>
+    <string name="title_activity_new_user">NewUserActivity</string>
+    <string name="title_activity_find_pwd">FindPwdActivity</string>
+    <string name="title_activity_conditions">ConditionsActivity</string>
+    <string name="title_activity_app_setting">AppSettingActivity</string>
+    <string name="title_activity_user_info">UserInfoActivity</string>
+    <string name="title_activity_change_pwd">ChangePwdActivity</string>
+    <string name="title_activity_app_info">AppInfoActivity</string>
+    <string name="title_activity_auto_link_setting">AutoLinkSettingActivity</string>
+    <string name="title_activity_device">DeviceActivity</string>
+    <string name="title_activity_device_enroll">DeviceEnrollActivity</string>
+    <string name="title_activity_device_enroll_list">DeviceEnrollListActivity</string>
+    <string name="title_activity_detail_info">DetailInfoActivity</string>
+    <string name="title_activity_service_conditions">ServiceConditionsActivity</string>
+    <string name="title_activity_individual_conditions">IndividualConditionsActivity</string>
+
+    <string name="Setting">설정</string>
+    <string name="Setting_String">설정</string>
+    <string name="Settings">환경설정</string>
+    <string name="AppInfo">앱 정보</string>
+    <string name="home">홈</string>
+    <string name="Login">로그인</string>
+    <string name="PasswordFind">암호 찾기</string>
+    <string name="NewUserLogin">회원가입</string>
+    <string name="ID">이메일</string>
+    <string name="PWD">패스워드</string>
+    <string name="PWDc">패스워드 확인</string>
+    <string name="PWD_Trans">암호받기</string>
+    <string name="ServiceUseConditions">서비스이용약관</string>
+    <string name="IndividualInfoDealingPolicy">개인정보취급방침</string>
+    <string name="Save">저장</string>
+    <string name="UserInfo">회원정보</string>
+    <string name="Open">열기</string>
+    <string name="General">일반</string>
+    <string name="AutoLogin">자동로그인</string>
+    <string name="AutoLoginString">자동 로그인을 설정합니다</string>
+    <string name="AutoDevice">디바이스 자동 연결</string>
+    <string name="AutoDeviceString">디바이스 자동 연결을 설정합니다</string>
+    <string name="AutoDeviceSetting">디바이스 자동 연결 설정</string>
+    <string name="AutoDeviceSettingString">디바이스 자동 연결 설정을 합니다</string>
+    <string name="Device">디바이스</string>
+    <string name="DeviceString">저장되어 있는 디바이스 리스트를 보여줍니다</string>
+    <string name="AirQuality">기상데이터</string>
+    <string name="AirQualityMeasurement">기상측정</string>
+    <string name="AirQualityMeasurementString">측정 ON / OFF</string>
+    <string name="MeasuringCycle">측정주기</string>
+    <string name="Weather">대기정보</string>
+    <string name="WeatherCheck">미세먼지 확인</string>
+    <string name="CheckCycle">확인주기</string>
+    <string name="Notifications">알림</string>
+    <string name="FirstName">성</string>
+    <string name="LastName">이름</string>
+    <string name="PwdChange">암호변경</string>
+    <string name="thisPwd">현재 암호</string>
+    <string name="newPwd">새 암호</string>
+    <string name="newPwdc">새 암호 확인</string>
+    <string name="Change">변경</string>
+    <string name="Close">닫기</string>
+    <string name="Check">확인</string>
+    <string name="EnrollList">등록 리스트</string>
+    <string name="ConnectionCondition">연결상태</string>
+    <string name="AutoDeviceConnection">자동연결</string>
+    <string name="Enroll">등록</string>
+    <string name="DeviceEnroll">디바이스등록</string>
+    <string name="UserIdDelete">회원탈퇴</string>
+    <string name="DeviceName">디바이스 이름</string>
+    <string name="MacAddress">맥 어드레스</string>
+    <string name="EnrollNumber">등록 번호</string>
+    <string name="DeviceEnrollList">디바이스 등록 리스트</string>
+    <string name="EnrollDeviceList">등록된 디바이스 리스트</string>
+    <string name="DetailInfo">상세정보</string>
+    <string name="DeviceSetting">기기 설정</string>
+    <string name="Good">좋음</string>
+    <string name="Normal">보통</string>
+    <string name="Bad">나쁨</string>
+    <string name="VeryBad">매우나쁨</string>
+    <string name="DeviceEnrollDelete">등록 해제</string>
+    <string name="DeviceConnect">디바이스 연결</string>
+    <string name="falseemailString">틀린 이메일입니다</string>
+    <string name="falsenetworkString">네트워크 오류</string>
+    <string name="falseunknownString">알수없는 오류</string>
+    <string name="notemailString">존재하지 않는 이메일입니다</string>
+    <string name="falsepwdString">틀린 비밀번호 입니다</string>
+    <string name="notidpwdString">아이디가 또는 패스워드가 입력되어 있지 않습니다</string>
+    <string name="pwdlongString">패스워드가 4자리 보다 작거나 20자리를 넘어갔습니다.</string>
+    <string name="loadingString">확인중입니다. 잠시만 기다려주세요</string>
+    <string name="Logout">로그아웃</string>
+    <string name="Forwarding">전송중...</string>
+    <string name="inputmailString">이메일을 입력해주세요</string>
+    <string name="inputpwdString">비밀번호를 입력해주세요</string>
+    <string name="inputpwddoubleString">비밀번호를 한번더 입력해주세요</string>
+    <string name="emailcheckString">이메일 확인 되었습니다</string>
+    <string name="pwdfalseString">비밀번호가 다릅니다</string>
+    <string name="bluetoothproString">블루투스를 켜주세요</string>
+    <string name="ble_not_supported">배터리 부족으로 블루투스 검색 실패</string>
+    <string name="scan">검색</string>
+    <string name="cancel">검색 취소</string>
+    <string name="Success">확인</string>
+    <string name="Cancel">취소</string>
+    <string name="paired">연결</string>
+    <string name="device">디바이스 :</string>
+    <string name="no_device">&lt;디바이스 리스트&gt;</string>
+    <string name="select_device">디바이스 리스트</string>
+    <string name="scanning">근처 디바이스 검색</string>
+    <string name="not_available">블루투스를 사용할수 없는 기종입니다</string>
+    <string name="UNKNOWN">알수없음</string>
+    <string name="Measurement">측정</string>
+    <string name="Anion">음이온</string>
+    <string name="AutoDC">자동연결을 설정합니다</string>
+    <string name="Loginuse">로그인후 이용하실수 있습니다</string>
+    <string name="AutoLoginOk">자동 로그인 실행</string>
+    <string name="AutoLoginCancel">자동 로그인 취소</string>
+    <string name="EnrollFalse">이미 등록되어 있습니다</string>
+    <string name="DeviceNameInput">디바이스 이름을 입력해주세요</string>
+    <string name="EnrollNumberInput">등록번호를 입력해주세요</string>
+    <string name="UserFirstInput">성을 입력해주세요</string>
+    <string name="UserLastInput">이름을 입력해주세요</string>
+    <string name="SurroundingsDevice">근처에 디바이스가 없어요</string>
+    <string name="DeviceDisconnecting">디바이스와 연결이 해제 되었어요</string>
+    <string name="AppReStart">앱을 다시 시작하시면 적용되요</string>
+    <string name="DeviceConnection">디바이스 연결됬습니다</string>
+    <string name="HealthIndexCheck">확인 주기</string>
+    <string name="HealthIndexSwitch">보건지수 확인</string>
+    <string name="Guest">게스트</string>
+    <string name="Name">이름</string>
+    <string name="Greade">등급</string>
+    <string name="MeasurementFalse">측정실패</string>
+    <string name="useUserInfo">사용자 정보를 확인합니다</string>
+    <string name="User">사용자</string>
+    <string name="Air">에어</string>
+    <string name="HealthWeatherIndices">보건기상지수</string>
+    <string name="HealthWeatherIndicesString">보건기상지수 확인</string>
+    <string name="AirPollutionInfomation">대기오염정보</string>
+    <string name="AirPollutionInfomationString">대기오염정보 확인</string>
+    <string name="GPSuseSetting">GPS 사용유무</string>
+    <string name="GPSMessage">GPS 셋팅이 되지 않았을수도 있습니다. \n 설정창으로 가시겠습니까?</string>
+    <string name="Set">설정</string>
+    <string name="GPSFalse">위치 사용 불가</string>
+    <string name="Camera">카메라</string>
+    <string name="Photo">사진</string>
+    <string name="Select">선택</string>
+
+    <string-array name="item_ids">
+        <item>초미세먼지</item>
+        <item>휘발성유기화합물</item>
+        <item>이산화탄소</item>
+        <item>온도</item>
+        <item>습도</item>
+        <item>기압</item>
+        <item>배터리</item>
+        <item>음이온</item>
+    </string-array>
+
+    <string-array name="item_ids2">
+        <item>감기 지수</item>
+        <item>꽃가루농도 위험 지수-잡초류</item>
+        <item>꽃가루농도 위험 지수-소나무류</item>
+        <item>꽃가루농도 위험 지수-수목류</item>
+        <item>피부질환 가능지수</item>
+        <item>뇌졸중 가능지수</item>
+        <item>천식폐질환 가능지수</item>
+    </string-array>
+
+    <string-array name="item_ids3">
+        <item>측정일</item>
+        <item>아황산가스 농도</item>
+        <item>일산화탄소 농도</item>
+        <item>오존 농도</item>
+        <item>이산화질소 농도</item>
+        <item>미세먼지 농도</item>
+        <item>통합대기 환경수치</item>
+        <item>통합대기 환경지수</item>
+        <item>아황산가스 지수</item>
+        <item>일산화탄소 지수</item>
+        <item>오존 지수</item>
+        <item>이산화질소 지수</item>
+        <item>미세먼지 지수</item>
+    </string-array>
+
+    <string name="Service_Conditions">
+        제 1조 [목적]\n
+        이 약관은 (주)에어 (이하 에어라 한다)이 제공하는 GIFTAIR(이하 GIFTAIR라 한다)의 이용조건 및 절차에 관한 사항 및 기타 필요한 사항을 규정할
+        목적으로 합니다.\n
+        제 2조 [약관의 효력과 변경]\n
+        1. 약관은 이용자에게 공시함으로서 효력을 발생합니다.\n
+        2. 회사는 사정 변경의 경우와 영업상 중요사유가 있을때 약관을 변경할수 있으며, 변경된 약관은 전항과 같은 방법으로 효력을 발생합니다.\n
+        제 3조 [약관의 공시 및 준용]\n
+        1. 이 약관의 내용은 서비스 화면중 이용약관란을 통해 게시하며 공시하며 약관이 변경 될 경우 회사는 지체없이 이를 서비스 내에 공시합니다.\n
+        2. 이용자의 이용조건에 중대한 영향을 미치는 사항에 대해서 회사는 약관의 변경전이라도 서비스의 공지사항을 통해 공지할수 있으며 이는 약관의 일부로서 유효합니다.\n
+        제 4조 [약관외 준칙]\n
+        이 약관에 명시되지 않은 사항이 관계법령에 규정되어 있을 경우에는 그 규정에 따릅니다.\n
+        제 5조 [용어의 정의]\n
+        이 약관에서 사용하는 용어의 정의는 다음과 같습니다.\n
+        1. 이용자번호(ID) : 이용자 식별과 이용자의 서비스 이용을 위하여 이용하는 자가 선정하고 "학교 또는 개인"이 부여하는 문자와 숫자의 조합.\n
+        2. 이용자 : 에어와 서비스 이용계약을 체결한 자로 이용자번호를 부여받은 자.\n
+        3. 비밀번호 : 부여된 이용자번호와 일치된 이용자임을 확인하고 이용자 자신의 비밀보호를 위하여 이용자 자신이 선정한 문자와 숫자의 조합.\n
+        4. 단말기 : 서비스를 이용하기 위해 이용자가 설치한 PC 및 모뎀 등의 통신용 기기.\n
+        5. 서비스 : GIFTAIR 와 (주)에어 에서 제공하는 GIFTAIR 전체 혹은 일부분 이용하는 것.\n
+        6. 서비스 이용 : 이용자가 단말기로 기간통신사업자의 회선을 통하여 자신의 이용자 번호와 비밀번호를 입력하여 서비스를 받을수 있는것.\n
+        7. 이용신청 : 서비스 이용계약을 체결하기 위한 청약의 의사표시.\n
+        8. 이용승낙 : 이용신청에 대한 회사의 승낙의 의사표시.\n
+        9. 서비스 안내 : 회사가 이용자의 이용조건 및 절차 등 이용자의 서비스 이용에 필요한 사항을 공지하는 서비스 내의 영역들.\n
+    </string>
+
+</resources>

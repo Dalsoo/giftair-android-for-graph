@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <PreferenceCategory android:title="@string/User" >
+        <Preference
+            android:key="UserInfo"
+            android:summary="@string/useUserInfo"
+            android:title="@string/UserInfo" >
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/General" >
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="autoLogin"
+            android:summary="@string/AutoLoginString"
+            android:switchTextOff="OFF"
+            android:switchTextOn="ON"
+            android:title="@string/AutoLogin" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="autoDevice"
+            android:summary="@string/AutoDeviceString"
+            android:switchTextOff="OFF"
+            android:switchTextOn="ON"
+            android:title="@string/AutoDevice" />
+
+        <Preference
+            android:key="DeviceList"
+            android:dependency="autoDevice"
+            android:summary="@string/AutoDeviceSettingString"
+            android:title="@string/AutoDeviceSetting" >
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/Device" >
+        <Preference
+            android:key="Device"
+            android:summary="@string/DeviceString"
+            android:title="@string/Device" >
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/AirQuality" >
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="airQuality"
+            android:summary="@string/AirQualityMeasurementString"
+            android:switchTextOff="OFF"
+            android:switchTextOn="ON"
+            android:title="@string/AirQualityMeasurement" />
+
+        <EditTextPreference
+            android:defaultValue="30"
+            android:key="Measurement"
+            android:dependency="airQuality"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/MeasuringCycle" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/Weather" >
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="WeatherCheck"
+            android:summary="@string/AirPollutionInfomationString"
+            android:switchTextOff="OFF"
+            android:switchTextOn="ON"
+            android:title="@string/AirPollutionInfomation" />
+
+        <EditTextPreference
+            android:defaultValue="30"
+            android:key="wCheckCycle"
+            android:dependency="WeatherCheck"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/CheckCycle" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="HealthIndexSwitch"
+            android:summary="@string/HealthWeatherIndicesString"
+            android:switchTextOff="OFF"
+            android:switchTextOn="ON"
+            android:title="@string/HealthWeatherIndices" />
+
+        <EditTextPreference
+            android:defaultValue="30"
+            android:key="hCheckCycle"
+            android:dependency="HealthIndexSwitch"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/CheckCycle" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/Notifications" >
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="Notifications"
+            android:summary="@string/Notifications"
+            android:switchTextOff="OFF"
+            android:switchTextOn="ON"
+            android:title="@string/Notifications" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_Air"
+            android:icon="@drawable/abc_btn_radio_to_on_mtrl_015"
+            android:title="@string/Air" />
+        <item
+            android:id="@+id/nav_Health"
+            android:icon="@drawable/abc_btn_radio_to_on_mtrl_015"
+            android:title="@string/HealthWeatherIndices" />
+        <item
+            android:id="@+id/nav_AirPollution"
+            android:icon="@drawable/abc_btn_radio_to_on_mtrl_015"
+            android:title="@string/AirPollutionInfomation" />
+    </group>
+
+    <item android:title="@string/Setting_String">
+        <menu>
+            <item
+                android:id="@+id/App_Settings"
+                android:icon="@drawable/abc_ic_menu_paste_mtrl_am_alpha"
+                android:title="@string/Settings" />
+            <item
+                android:id="@+id/App_Info"
+                android:icon="@drawable/abc_ic_search_api_mtrl_alpha"
+                android:title="@string/AppInfo" />
+        </menu>
+    </item>
+
+</menu>
